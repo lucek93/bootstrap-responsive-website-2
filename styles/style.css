@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.6rem;
+}
+
+.hero-shadow {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    z-index: -1;
+}
+
+.additional-text {
+    font-size: 1.6rem;
+}
+
+.top-hero {
+    position: relative;
+    height: 20rem;
+    background-size: cover;
+    z-index: 0;
+}
+
+.top-hero-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3.6rem;
+    text-transform: uppercase;
+}
+
+/* Navigation */
+nav {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.navbar-toggler {
+    font-size: 3rem;
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: none;
+}
+
+/* Header */
+
+header {
+    font-size: 2rem;
+}
+
+.carousel-item {
+    position: relative;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.carousel-img-one {
+    background-image: url('../img/header-1.jpg');
+}
+
+.carousel-img-two {
+    background-image: url('../img/header-2.jpg');
+}
+
+.carousel-img-three {
+    background-image: url('../img/header-3-mobile.jpg');
+}
+
+
+/* Home-boxes*/
+.home-boxes {
+    padding: 5em 0;
+}
+
+.home-box i {
+    font-size: 4rem;
+}
+
+.home-box h3 {
+    font-size: 2.6rem;
+}
+
+.home-passion {
+    position: relative;
+    height: 350px;
+    background-image: url(../img/room.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
+.home-brand h3 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+/* About */
+
+.aboutus-hero {
+    background-image: url('../img/about/hotel-hall.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutus-info {
+    background-color: rgba(0, 0, 0, 0.03);
+}
+
+.aboutus-info .container {
+    padding: 2em .5em;
+}
+
+.aboutus-text {
+    padding: 1.8em;
+}
+
+.aboutus-text h3 {
+    margin-bottom: .5em;
+    font-size: 2.6rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: underline #28A745;
+}
+
+.aboutus-text-right {
+    text-align: right;
+}
+
+.aboutus-img {
+    height: 300px;
+    background-image: url('../img/about/hotel.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.aboutus-bottom i {
+    font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+    font-size: 2.2rem;
+    font-weight: bold;
+}
+
+/* Services */
+.service-hero {
+    background-image: url('../img/services/services.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-hero-box {
+    position: relative;
+    height: 300px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.service-hero-box p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.service-pricing .box-one {
+    background-image: url('../img/services/wedding.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-pricing .box-two {
+    background-image: url('../img/services/conference.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-pricing .box-three {
+    background-image: url('../img/services/restaurant.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-pricing .box-four {
+    background-image: url('../img/services/spa.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.service-pricing .card-header {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.service-pricing h3 {
+    font-weight: bold;
+}
+
+.service-pricing .btn {
+    font-size: 1.6rem;
+    text-transform: uppercase;
+}
+
+/* Restaurant */
+
+.foods-hero {
+    background-image: url('../img//restaurant/restaurant.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.foods img {
+    height: 240px;
+    object-fit: cover;
+}
+
+.foods .btn {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+/* Contact */
+.contact-hero {
+    background-image: url('../img/contact/contact.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.contact h2,
+.contact h3 {
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.contact h2 {
+    font-size: 2.6rem;
+}
+
+.contact-logo {
+    font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+    font-size: 1.6rem;
+}
+
+.contact .btn {
+    padding: .3em .8em;
+    font-size: 2rem;
+}
+
+.contact-map iframe {
+    width: 100%;
+    min-height: 400px;
+}
+
+
+/* Footer */
+footer {
+    font-size: 1.6rem;
+}
+
+
+@media (min-width: 992px) {
+    .aboutus-info .container {
+        padding: 0;
+    }
+
+    .aboutus-shadow {
+        box-shadow: inset 5px 10px -5px rgba(0, 0, 0, 0.6);
+    }
+
+    .aboutus-text {
+        padding: 5em 0;
+        transform: skew(-15deg);
+    }
+
+    .aboutus-text-left {
+        padding-right: 2em;
+        text-align: right;
+    }
+
+    .aboutus-text-right {
+        padding-left: 2em;
+        text-align: left;
+    }
+
+    .aboutus-img {
+        transform: skew(-15deg);
+        height: auto;
+    }
+}
+
+
+@media (min-width: 1400px) {
+    .carousel-item {
+        height: 600px;
+    }
+
+    .carousel-img-one {
+        background-image: url('../img/header-1.jpg');
+    }
+
+    .carousel-img-two {
+        background-image: url('../img/header-2.jpg');
+    }
+
+    .carousel-img-three {
+        background-image: url('../img/header-3.jpg');
+    }
+}
